@@ -128,6 +128,7 @@ div.menu_footer
 div.menu_footer nav ul {
     font-size: 1.4rem;
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     margin: 1.8rem;
 }
@@ -136,4 +137,27 @@ div.menu_footer nav ul li {
 }
 div.menu_footer nav ul li:hover {
     text-decoration: underline;
+}
+/**Media Query*/
+@media (max-width: 600px) {
+    div.div__img img {
+        width: 38rem;
+    }
+    input {
+        width: 38rem;
+    }
+    div.menu_footer {
+        justify-content: center;
+    }
+}
+@media (max-width: 800px) {
+    div.div__img img {
+        width: 42rem;
+    }
+    input {
+        width: 42rem;
+    }
+    div.menu_footer {
+        justify-content: center;
+    }
 }
