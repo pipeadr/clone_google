@@ -9,4 +9,147 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  background-color: #66b3ea;
+}
+
+header {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.nav__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+  padding-top: 3rem;
+  padding-right: 3rem;
+}
+
+li.nav__ul--li {
+  /*padding-top: 15px;*/
+  padding-left: 2rem;
+}
+
+li.nav__ul--li a {
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li.nav__ul--li a.text:hover {
+  text-decoration: underline;
+}
+
+li.nav__ul--li a i {
+  font-size: 4.5rem;
+}
+
+li.nav__ul--li a i:hover {
+  color: rgba(60, 64, 67, 0.3);
+}
+
+li.nav__ul--li a img.icon {
+  width: 5.9rem;
+  border-radius: 3.5rem;
+  border: 0.2rem solid  transparent;
+}
+
+li.nav__ul--li a img.icon {
+  width: 5.9rem;
+  border-radius: 35px;
+  border: 0.2rem solid transparent;
+}
+
+li.nav__ul--li a img.icon:hover {
+  border: 0.2rem solid #dfe1e5;
+}
+
+main {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.div__img img {
+  width: 50rem;
+}
+
+input {
+  width: 50rem;
+  margin: 2rem 0;
+  padding: 0.8rem;
+  border: 0.1rem solid #dfe1e5;
+  border-radius: 2.4rem;
+  outline: none;
+}
+
+form {
+  position: relative;
+}
+
+form i.search {
+  position: absolute;
+  top: 3rem;
+  font-size: 1.6rem;
+  left: 1rem;
+  color: #a4a9ad;
+  padding-left: 10px;
+}
+
+form i.voice {
+  position: absolute;
+  top: 3rem;
+  font-size: 1.6rem;
+  right: 1rem;
+  color: #d9251c;
+  padding-right: 1.2rem;
+}
+
+div.one_piece {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.one_piece a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.3rem;
+  background-color: #d9251c;
+  margin: 1rem;
+  border: 0.1rem solid #d9251c;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+div.one_piece a:hover {
+  border: 0.1rem solid #ffffff;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+div.one_piece {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    & a {
+        @include botones;   
+    }
+    & a:hover {
+        border: 0.1rem solid $primary-color;
+    }
+}

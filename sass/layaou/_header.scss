@@ -1,0 +1,45 @@
+//estilos header
+header {
+    @include max-width(100%);
+}
+ul.nav__ul {
+    @include display;
+    justify-content: flex-end;
+    list-style: none;
+    padding-top: 3rem;
+    padding-right: 3rem;
+}
+li.nav__ul--li {
+    /*padding-top: 15px;*/
+    padding-left: 2rem;
+}
+li.nav__ul--li a {
+    font-size: $basefontsize;
+    color: $primary-color;
+    text-decoration: none;
+}
+li.nav__ul--li a.text:hover {
+    text-decoration: underline;
+}
+li.nav__ul--li a i
+{
+    font-size: 4.5rem;
+}
+li.nav__ul--li a i:hover {
+    color: rgba(60,64,67,0.3);
+}
+li.nav__ul--li a img.icon
+{
+    width: 5.9rem;
+    border-radius: 3.5rem;
+    border: 0.2rem solid  transparent;
+}
+li.nav__ul--li a img.icon
+{
+    width: 5.9rem;
+    border-radius: 35px;
+    border: $border-icon solid  transparent;
+}
+li.nav__ul--li a img.icon:hover {
+    border: $border-icon solid $background-footer;
+}

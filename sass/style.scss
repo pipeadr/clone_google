@@ -1,4 +1,13 @@
 //reset default styles
 @import "lib/restart";
 //variables
-@import "lib/variables"
+@import "lib/variables";
+//mixinis
+@import "lib/mixinis";
+ //elementos Base
+ @import "base/tipografias";
+ //layaout
+ @import "layaou/header"; 
+ @import "layaou/main";
+ //Botones
+ @import "botones/botones";

@@ -1,0 +1,37 @@
+//$mixinis
+@mixin max-width($maxwidth: 60%) {
+    max-width: $maxwidth;  
+    margin-left: auto;
+    margin-right: auto;
+  }
+//   @mixin response-to($width)
+//   {
+//       @media only screen and (min-width: $width)
+//       {
+//           @content;
+//       }
+//   }
+@mixin display {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+//iconos menu
+@mixin iconos {
+  position: absolute;
+  top: 3rem;
+  font-size: $basefontsize;
+}
+//botones 
+@mixin botones {
+  color: $primary-color;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.3rem;
+  background-color: $red;
+  margin: 1rem;
+  border: 0.1rem solid $red;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}

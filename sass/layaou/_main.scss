@@ -1,0 +1,33 @@
+main {
+    @include max-width(100%);
+    @include display;
+    justify-content: center;
+}
+div.div__img img {
+    width: 50rem;
+    // margin: 1.5rem 0;
+}
+input {
+    width: 50rem;
+    margin: 2rem 0;
+    padding: 0.8rem;
+    border: 0.1rem solid $background-footer;
+    border-radius: 2.4rem;
+    outline: none;
+}
+form {
+    position: relative;
+    & i.search {
+        @include iconos;
+        left: 1rem;
+        color: $gray-icon;
+        // font-size: 1.4rem;
+        padding-left: 10px;
+    }
+    & i.voice {
+        @include iconos;
+        right: 1rem;
+        color: $red;
+        padding-right: 1.2rem;
+    }
+}
