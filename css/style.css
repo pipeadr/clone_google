@@ -159,12 +159,31 @@ div.menu_footer nav ul li:hover {
     text-decoration: underline;
 }
 /**Media Query*/
-@media (max-width: 600px) {
+@media (max-width: 300px) {
+    div.div__img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    div.main div.div__img img {
+        width: 26rem!important;
+    }
+    form > input {
+        width: 26.6rem!important;
+    }
+    div.menu_footer {
+        justify-content: center;
+    }
+}
+@media (max-width: 460px) {
+    .div__img {
+        width: 80%;
+        margin: 0 auto;
+    }
     div.div__img img {
-        width: 38rem;
+        width: 29rem!important;
     }
     input {
-        width: 38rem;
+        width: 35rem!important;
     }
     div.menu_footer {
         justify-content: center;
