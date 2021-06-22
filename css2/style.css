@@ -122,6 +122,19 @@ form i.voice {
   padding-right: 1.2rem;
 }
 
+@media only screen and (max-width: 460px) {
+  .div__img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  div.div__img img {
+    width: 29rem !important;
+  }
+  input {
+    width: 35rem !important;
+  }
+}
+
 div.one_piece {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,5 +211,21 @@ div.menu_footer nav ul li {
 
 div.menu_footer nav ul li:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 460px) {
+  footer section p {
+    text-align: center;
+  }
+  div.menu_footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.menu_footer nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

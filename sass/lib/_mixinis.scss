@@ -4,13 +4,36 @@
     margin-left: auto;
     margin-right: auto;
   }
-//   @mixin response-to($width)
-//   {
-//       @media only screen and (min-width: $width)
-//       {
-//           @content;
-//       }
-//   }
+  @mixin response-to($width)
+  {
+      @media only screen and (max-width: $width)
+      {
+        .div__img {
+          width: 80%;
+          margin: 0 auto;
+      }
+      div.div__img img {
+          width: 29rem!important;
+      }
+      input {
+          width: 35rem!important;
+      }
+      }
+  }
+  @mixin footer-res($width) {
+    @media only screen and (max-width: $width)
+    {
+      footer section p {
+        text-align: center;
+      }
+      div.menu_footer {
+         justify-content: center;
+      }
+      div.menu_footer nav ul {
+        justify-content: center;
+      }
+    }
+  }
 @mixin display {
     display: flex;
     flex-wrap: wrap;

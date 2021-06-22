@@ -31,3 +31,4 @@ form {
         padding-right: 1.2rem;
     }
 }
+@include response-to(460px);
