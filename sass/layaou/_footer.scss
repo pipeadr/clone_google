@@ -1,0 +1,33 @@
+footer {
+ background-color: $background-footer;
+//  display: flex;
+//  flex-direction: column;
+ position: fixed;
+ width: 100%;
+ bottom: 0; 
+ & section {
+    border-bottom: 1px solid $gray;
+    & p {
+        color: $gray-ligth;
+        font-size: 1.6rem;
+        margin: 13px;
+    }
+ }
+}
+
+div.menu_footer {
+    @include display;
+    justify-content: space-between;
+    & nav ul {
+        @include display;
+        font-size: 1.4rem;
+        list-style: none;
+        margin: 13px;
+        & li {
+            padding-right: 10px;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

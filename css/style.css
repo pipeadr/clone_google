@@ -10,7 +10,7 @@ html
 }
 /*Color Fondo*/
 body {
-    background-color: #66b3ea;
+    background-color: #66b3ea; 
 }
 /*Estilos Header*/
 ul.nav__ul {
@@ -41,12 +41,12 @@ li.nav__ul--li a i
 li.nav__ul--li a i:hover {
     color: rgba(60,64,67,0.3);
 }
-li.nav__ul--li a img.icon
-{
-    width: 5.9rem;
-    border-radius: 35px;
-    border: 0.2rem solid  transparent;
-}
+    li.nav__ul--li a img.icon
+    {
+        width: 5.9rem;
+        border-radius: 35px;
+        border: 0.2rem solid  transparent;
+    }
 li.nav__ul--li a img.icon:hover {
     border: 0.2rem solid #dfe1e5;
 }

@@ -1,6 +1,5 @@
 div.one_piece {
-    display: flex;
-    flex-wrap: wrap;
+    @include display;
     justify-content: center;
     & a {
         @include botones;   
