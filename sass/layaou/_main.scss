@@ -32,3 +32,15 @@ form {
     }
 }
 @include response-to(460px);
+
+@media (max-width: 800px) {
+    div.div__img img {
+        width: 42rem;
+    }
+    input {
+        width: 42rem;
+    }
+    div.menu_footer {
+        justify-content: center;
+    }
+}

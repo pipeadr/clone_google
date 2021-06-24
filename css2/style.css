@@ -135,6 +135,20 @@ form i.voice {
   }
 }
 
+@media (max-width: 800px) {
+  div.div__img img {
+    width: 42rem;
+  }
+  input {
+    width: 42rem;
+  }
+  div.menu_footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 div.one_piece {
   display: -webkit-box;
   display: -ms-flexbox;
